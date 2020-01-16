@@ -29,5 +29,5 @@ Es necesario sincronizar el codigo de proyecto con github. En la seccion reposit
 #git remote add origin <codigo ssh del proyecto>
 --->Ejem: git remote add origin git@github.com:movix86/git-test.git
 
-2) Despues se sincrinoza la rama master local con la remota.
+2) Despues se sincrinoza la rama master local con la remota:
 #git push -u origin master
