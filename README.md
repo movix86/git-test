@@ -5,7 +5,6 @@ Este es un proyecto de prueba con git, para probar comandos y codigo.
 
 Working directory --(git add)--> Staging area --(git commit)--> Repository*
 
-
 -----------------GIT COMMANS---------------
 git init   -> Se le dice a git que se va a iniciar un proyecto nuevo
 git add (nombre archivo) -> Pasar archivos del working a staging area (listo a subir)
