@@ -5,7 +5,7 @@ Este es un proyecto de prueba con git, para probar comandos y codigo.
 
 Working directory --(git add)--> Staging area --(git commit)--> Repository*
 
-# -----------------GIT COMMANS---------------
+# GIT COMMANS
 1. git init   -> Se le dice a git que se va a iniciar un proyecto nuevo
 2. git add (nombre archivo) -> Pasar archivos del working a staging area (listo a subir)
 3. git status -> Para ver como estan los archivos (Si estan listos para subir a no)
@@ -20,7 +20,7 @@ Working directory --(git add)--> Staging area --(git commit)--> Repository*
 11. git log -> Muestra todas las versiones o commits
 
 * Si creo el archivo (.gitignore) y en el escribo los archivos y carpetas que quiero que git ignore. Nota: Solo basta con escribir el nombre del archivo o la carpeta
-# -----------------HASTA AQUI GIT CODIGO Y PASAMOS A GITHUB---------------
+# HASTA AQUI GIT CODIGO Y PASAMOS A GITHUB
 Es necesario sincronizar el codigo de proyecto con github. En la seccion repository se crea un repositorio nuevo.
 1) Despues en la consola local se escribe:
 
