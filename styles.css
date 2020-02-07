@@ -6,3 +6,7 @@ body{
 h3{
 	color: #005187;
 }
+
+div.seccion {
+	padding: 60px;
+}
