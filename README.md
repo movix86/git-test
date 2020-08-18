@@ -15,13 +15,14 @@ Working directory --(git add)--> Staging area --(git commit)--> Repository*
 7. git pull   -> Bajar lo que hicieron otros
 8. git clone  -> Clonar un proyecto
 9. git checkout -- index.html -> deshace los cambios guardados en el sublime. siempre que no tenga commit.
+10. git diff index.html -> Este me muestra que fue lo que se agrego al nuevo codigo o proyecto.
 
-10. git checkout (nombre de la rama que deseamos) -> este es para cambiar entre ramas
-11. git checkout -- (nombre del archivo donde queremos deshacer el cambio.) -> este es para dar un paso atras en los archivos modificados.
-12. git log -> Muestra todas las versiones o commits
-13. git remote rm destination -> Elimina repositorio remoto del proyecto local.
-14. git remote -v destination -> Muestra los repositorios remotos actuales en este proyecto.
-15. git remote add origin <ssh direction> -> Agrega repsositorio remoto al proyecto local.
+11. git checkout (nombre de la rama que deseamos) -> este es para cambiar entre ramas
+12. git checkout -- (nombre del archivo donde queremos deshacer el cambio.) -> este es para dar un paso atras en los archivos modificados.
+13. git log -> Muestra todas las versiones o commits
+14. git remote rm destination -> Elimina repositorio remoto del proyecto local.
+15. git remote -v destination -> Muestra los repositorios remotos actuales en este proyecto.
+16. git remote add origin <ssh direction> -> Agrega repsositorio remoto al proyecto local.
 
 * Para guardar con "git commit" se oprime tecla S y luego se escribe :wq y ENTER. (Laptop ASUS modernas)
 * Si creo el archivo (.gitignore) y en el escribo los archivos y carpetas que quiero que git ignore. Nota: Solo basta con escribir el nombre del archivo o la carpeta
