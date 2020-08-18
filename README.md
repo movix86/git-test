@@ -7,8 +7,8 @@ Working directory --(git add)--> Staging area --(git commit)--> Repository*
 
 # GIT COMMANS
 1. git init   -> Se le dice a git que se va a iniciar un proyecto nuevo
-2. git add (nombre archivo) -> Pasar archivos del working a staging area (listo a subir)
-3. git status -> Para ver como estan los archivos (Si estan listos para subir a no)
+2. git status -> Para ver como estan los archivos (Si estan listos para subir a no)
+3. git add (nombre archivo) -> Pasar archivos del working a staging area (listo a subir)
 4. git commit ->  Pasar al repositorio, como una primera foto del codigo en git
 5. git commit -m "Mensaje de version" -> Esta es una forma mas rapido de guardar un commit
 6. git push -u origin master   -> Subir al servidor para los demas desarrolladores
