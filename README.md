@@ -24,7 +24,7 @@ Working directory --(git add)--> Staging area --(git commit)--> Repository*
 15. git remote -v destination -> Muestra los repositorios remotos actuales en este proyecto.
 16. git remote add origin <ssh direction> -> Agrega repsositorio remoto al proyecto local.
 
-* Para guardar con "git commit" se oprime tecla S y luego se escribe :wq y ENTER. (Laptop ASUS modernas)
+* Para guardar con "git commit" primero se oprime tecla I o S, para poder escribir y luego se escribe :wq y ENTER. (Laptop ASUS modernas)
 * Si creo el archivo (.gitignore) y en el escribo los archivos y carpetas que quiero que git ignore. Nota: Solo basta con escribir el nombre del archivo o la carpeta
 # HASTA AQUI GIT CODIGO Y PASAMOS A GITHUB
 Es necesario sincronizar el codigo de proyecto con github. En la seccion repository se crea un repositorio nuevo.
