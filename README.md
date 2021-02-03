@@ -12,10 +12,11 @@ Working directory --(git add)--> Staging area --(git commit)--> Repository*
 4. git commit ->  Pasar al repositorio, como una primera foto del codigo en git
 5. git commit -m "Mensaje de version" -> Esta es una forma mas rapido de guardar un commit
 6. git push -u origin master   -> Subir al servidor para los demas desarrolladores
-7. git pull   -> Bajar lo que hicieron otros
-8. git clone  -> Clonar un proyecto
-9. git checkout -- index.html -> deshace los cambios guardados en el sublime. siempre que no tenga commit.
-10. git diff index.html -> Este me muestra que fue lo que se agrego al nuevo codigo o proyecto.
+7. git push --all   -> Subir todo, ramas, etiquetas, configuraciones y mas.
+8. git pull   -> Bajar lo que hicieron otros
+9. git clone  -> Clonar un proyecto
+10. git checkout -- index.html -> deshace los cambios guardados en el sublime. siempre que no tenga commit.
+11. git diff index.html -> Este me muestra que fue lo que se agrego al nuevo codigo o proyecto.
 
 11. git checkout (nombre de la rama que deseamos) -> este es para cambiar entre ramas
 12. git checkout -- (nombre del archivo donde queremos deshacer el cambio.) -> este es para dar un paso atras en los archivos modificados.
